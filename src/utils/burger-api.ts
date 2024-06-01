@@ -1,5 +1,6 @@
 import { setCookie, getCookie } from './cookie';
-import { TIngredient, TOrder, TOrdersData, TUser } from './types';
+import { TIngredient, TOrder, TUser } from './types';
+import { ServerResponse } from 'http';
 
 const URL = 'https://norma.nomoreparties.space/api';
 
