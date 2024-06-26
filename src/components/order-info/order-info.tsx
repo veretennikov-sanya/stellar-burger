@@ -6,8 +6,8 @@ import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from '@store';
 import {
   getOrderThunk,
-  getIngredientsSelector,
-  getOrderSelector
+  getOrderSelector,
+  getIngredientsSelector
 } from '@slices';
 
 export const OrderInfo: FC = () => {

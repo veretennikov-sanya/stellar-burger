@@ -1,8 +1,10 @@
 import { FC, useState, SyntheticEvent, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ForgotPasswordUI } from '@ui-pages';
-import { useSelector, useDispatch } from '@store';
+
 import { forgotPasswordApi } from '@api';
+import { ForgotPasswordUI } from '@ui-pages';
+
+import { useSelector, useDispatch } from '@store';
 import {
   forgotPasswordThunk,
   getUserErrorSelector,

@@ -1,4 +1,4 @@
-import { FC, memo, ReactElement, useEffect } from 'react';
+import { FC, ReactElement, memo, useEffect } from 'react';
 import { BurgerConstructorElementUI } from '@ui';
 import { BurgerConstructorElementProps } from './type';
 import { useDispatch } from '@store';

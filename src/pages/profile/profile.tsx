@@ -5,6 +5,7 @@ import { getUserSelector, updateUserThunk } from '@slices';
 import { TUser } from '@utils-types';
 
 export const Profile: FC = () => {
+  /** TODO: взять переменную из стора */
   const dispatch = useDispatch();
   const user = useSelector(getUserSelector) as TUser;
 

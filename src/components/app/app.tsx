@@ -1,5 +1,3 @@
-import '../../index.css';
-import styles from './app.module.css';
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import {
   ConstructorPage,
@@ -12,7 +10,8 @@ import {
   Register,
   ResetPassword
 } from '@pages';
-
+import '../../index.css';
+import styles from './app.module.css';
 import {
   AppHeader,
   Modal,
@@ -21,7 +20,6 @@ import {
   ProtectedRoute,
   Center
 } from '@components';
-
 import { useDispatch } from '@store';
 import {
   getIngredientsThunk,
