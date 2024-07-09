@@ -16,8 +16,10 @@ export const BurgerConstructor: FC = () => {
   const dispatch = useDispatch();
   const constructorState = useSelector(getConstructorSelector);
   const isAuthorized = useSelector(isAuthorizedSelector);
+
   const constructorItems = constructorState.constructorItems;
   const orderRequest = constructorState.orderRequest;
+
   const orderModalData = constructorState.orderModalData;
 
   const onOrderClick = () => {

@@ -19,6 +19,7 @@ export const Login: FC = () => {
     e.preventDefault();
     dispatch(loginUserThunk({ email, password }));
   };
+
   return (
     <LoginUI
       errorText={error?.toString()}
